@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		234A91A0BC5CF05A93CAFD73 /* Pods_Mova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB054ACC3170AE71C651A712 /* Pods_Mova.framework */; };
+		6BC1BE242240F4FD00D4E346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1BE232240F4FD00D4E346 /* AppDelegate.swift */; };
+		6BC1BE262240F4FD00D4E346 /* SearchImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1BE252240F4FD00D4E346 /* SearchImageViewController.swift */; };
+		6BC1BE2B2240F4FF00D4E346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC1BE2A2240F4FF00D4E346 /* Assets.xcassets */; };
+		6BC1BE2E2240F4FF00D4E346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC1BE2C2240F4FF00D4E346 /* LaunchScreen.storyboard */; };
+		6BC1BE362240F51800D4E346 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1BE352240F51800D4E346 /* ApiService.swift */; };
+		6BC1BE38224108AB00D4E346 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1BE37224108AB00D4E346 /* Constants.swift */; };
+		6BC1BE3A224109D200D4E346 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1BE39224109D200D4E346 /* Extensions.swift */; };
+		6BC1BE3C22410A4000D4E346 /* CheckInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1BE3B22410A4000D4E346 /* CheckInternet.swift */; };
+		6BC1BE3E22410A7F00D4E346 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1BE3D22410A7F00D4E346 /* Alert.swift */; };
+		6BC1BE4122411CE000D4E346 /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1BE4022411CE000D4E346 /* RealmModel.swift */; };
+		6BC1BE432241328A00D4E346 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1BE422241328A00D4E346 /* ImageModel.swift */; };
+		6BC1BE4622413A2900D4E346 /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1BE4522413A2900D4E346 /* ResultCell.swift */; };
+		6BC1BE4822413ABA00D4E346 /* CustomUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1BE4722413ABA00D4E346 /* CustomUIImage.swift */; };
+		6BC1BE4A224162AE00D4E346 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1BE49224162AE00D4E346 /* BaseCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BC1BE202240F4FD00D4E346 /* Mova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mova.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC1BE232240F4FD00D4E346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BC1BE252240F4FD00D4E346 /* SearchImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchImageViewController.swift; sourceTree = "<group>"; };
+		6BC1BE2A2240F4FF00D4E346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BC1BE2D2240F4FF00D4E346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BC1BE2F2240F4FF00D4E346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BC1BE352240F51800D4E346 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		6BC1BE37224108AB00D4E346 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6BC1BE39224109D200D4E346 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6BC1BE3B22410A4000D4E346 /* CheckInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInternet.swift; sourceTree = "<group>"; };
+		6BC1BE3D22410A7F00D4E346 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		6BC1BE4022411CE000D4E346 /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
+		6BC1BE422241328A00D4E346 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		6BC1BE4522413A2900D4E346 /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
+		6BC1BE4722413ABA00D4E346 /* CustomUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIImage.swift; sourceTree = "<group>"; };
+		6BC1BE49224162AE00D4E346 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		B09D5294D06DC65208A87931 /* Pods-Mova.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mova.debug.xcconfig"; path = "Target Support Files/Pods-Mova/Pods-Mova.debug.xcconfig"; sourceTree = "<group>"; };
+		BB054ACC3170AE71C651A712 /* Pods_Mova.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mova.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D917DC7FD4D5310648AAE9AA /* Pods-Mova.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mova.release.xcconfig"; path = "Target Support Files/Pods-Mova/Pods-Mova.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BC1BE1D2240F4FD00D4E346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234A91A0BC5CF05A93CAFD73 /* Pods_Mova.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FF8B6A7D6126270867DD993 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B09D5294D06DC65208A87931 /* Pods-Mova.debug.xcconfig */,
+				D917DC7FD4D5310648AAE9AA /* Pods-Mova.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6BC1BE172240F4FD00D4E346 = {
+			isa = PBXGroup;
+			children = (
+				6BC1BE222240F4FD00D4E346 /* Mova */,
+				6BC1BE212240F4FD00D4E346 /* Products */,
+				5FF8B6A7D6126270867DD993 /* Pods */,
+				8CBA1335BDE2822606AC64C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BC1BE212240F4FD00D4E346 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BC1BE202240F4FD00D4E346 /* Mova.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BC1BE222240F4FD00D4E346 /* Mova */ = {
+			isa = PBXGroup;
+			children = (
+				6BC1BE232240F4FD00D4E346 /* AppDelegate.swift */,
+				6BC1BE252240F4FD00D4E346 /* SearchImageViewController.swift */,
+				6BC1BE44224138EC00D4E346 /* Model */,
+				6BC1BE4B224162D800D4E346 /* Cell */,
+				6BC1BE3F22410C3A00D4E346 /* Helpers */,
+				6BC1BE4722413ABA00D4E346 /* CustomUIImage.swift */,
+				6BC1BE2A2240F4FF00D4E346 /* Assets.xcassets */,
+				6BC1BE2C2240F4FF00D4E346 /* LaunchScreen.storyboard */,
+				6BC1BE2F2240F4FF00D4E346 /* Info.plist */,
+				6BC1BE352240F51800D4E346 /* ApiService.swift */,
+			);
+			path = Mova;
+			sourceTree = "<group>";
+		};
+		6BC1BE3F22410C3A00D4E346 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6BC1BE37224108AB00D4E346 /* Constants.swift */,
+				6BC1BE39224109D200D4E346 /* Extensions.swift */,
+				6BC1BE3B22410A4000D4E346 /* CheckInternet.swift */,
+				6BC1BE3D22410A7F00D4E346 /* Alert.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6BC1BE44224138EC00D4E346 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6BC1BE4022411CE000D4E346 /* RealmModel.swift */,
+				6BC1BE422241328A00D4E346 /* ImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6BC1BE4B224162D800D4E346 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6BC1BE49224162AE00D4E346 /* BaseCell.swift */,
+				6BC1BE4522413A2900D4E346 /* ResultCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8CBA1335BDE2822606AC64C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB054ACC3170AE71C651A712 /* Pods_Mova.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BC1BE1F2240F4FD00D4E346 /* Mova */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BC1BE322240F4FF00D4E346 /* Build configuration list for PBXNativeTarget "Mova" */;
+			buildPhases = (
+				AEB600B3EA22B6EB90315518 /* [CP] Check Pods Manifest.lock */,
+				6BC1BE1C2240F4FD00D4E346 /* Sources */,
+				6BC1BE1D2240F4FD00D4E346 /* Frameworks */,
+				6BC1BE1E2240F4FD00D4E346 /* Resources */,
+				F57DD658FE1B34521D99A299 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mova;
+			productName = Mova;
+			productReference = 6BC1BE202240F4FD00D4E346 /* Mova.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BC1BE182240F4FD00D4E346 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Next Level";
+				TargetAttributes = {
+					6BC1BE1F2240F4FD00D4E346 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 6BC1BE1B2240F4FD00D4E346 /* Build configuration list for PBXProject "Mova" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BC1BE172240F4FD00D4E346;
+			productRefGroup = 6BC1BE212240F4FD00D4E346 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BC1BE1F2240F4FD00D4E346 /* Mova */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BC1BE1E2240F4FD00D4E346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC1BE2E2240F4FF00D4E346 /* LaunchScreen.storyboard in Resources */,
+				6BC1BE2B2240F4FF00D4E346 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AEB600B3EA22B6EB90315518 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mova-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F57DD658FE1B34521D99A299 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mova/Pods-Mova-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mova/Pods-Mova-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BC1BE1C2240F4FD00D4E346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC1BE3A224109D200D4E346 /* Extensions.swift in Sources */,
+				6BC1BE3C22410A4000D4E346 /* CheckInternet.swift in Sources */,
+				6BC1BE262240F4FD00D4E346 /* SearchImageViewController.swift in Sources */,
+				6BC1BE242240F4FD00D4E346 /* AppDelegate.swift in Sources */,
+				6BC1BE4A224162AE00D4E346 /* BaseCell.swift in Sources */,
+				6BC1BE432241328A00D4E346 /* ImageModel.swift in Sources */,
+				6BC1BE362240F51800D4E346 /* ApiService.swift in Sources */,
+				6BC1BE4822413ABA00D4E346 /* CustomUIImage.swift in Sources */,
+				6BC1BE4122411CE000D4E346 /* RealmModel.swift in Sources */,
+				6BC1BE38224108AB00D4E346 /* Constants.swift in Sources */,
+				6BC1BE4622413A2900D4E346 /* ResultCell.swift in Sources */,
+				6BC1BE3E22410A7F00D4E346 /* Alert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BC1BE2C2240F4FF00D4E346 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BC1BE2D2240F4FF00D4E346 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BC1BE302240F4FF00D4E346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BC1BE312240F4FF00D4E346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BC1BE332240F4FF00D4E346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B09D5294D06DC65208A87931 /* Pods-Mova.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CKBNF3UH37;
+				INFOPLIST_FILE = Mova/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Next.level.Mova;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BC1BE342240F4FF00D4E346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D917DC7FD4D5310648AAE9AA /* Pods-Mova.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CKBNF3UH37;
+				INFOPLIST_FILE = Mova/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Next.level.Mova;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BC1BE1B2240F4FD00D4E346 /* Build configuration list for PBXProject "Mova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC1BE302240F4FF00D4E346 /* Debug */,
+				6BC1BE312240F4FF00D4E346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC1BE322240F4FF00D4E346 /* Build configuration list for PBXNativeTarget "Mova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC1BE332240F4FF00D4E346 /* Debug */,
+				6BC1BE342240F4FF00D4E346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BC1BE182240F4FD00D4E346 /* Project object */;
+}
