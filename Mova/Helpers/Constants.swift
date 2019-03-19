@@ -9,12 +9,10 @@
 import Foundation
 
 struct ConstName {
-    static let title = "SEARCH IMAGE"
     static let internetTitle = "Internet"
     static let errorMessage = "Упс что-то пошло не так... 🤔"
     static let searchPlaceholder = "Поиск"
     static let emptyResult = "По Вашему запросу ничего не найдено."
-   
 }
 
 struct HexColors {

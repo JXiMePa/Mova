@@ -35,7 +35,6 @@ final class SearchImageViewController: UIViewController {
     //MARK: Property
     private let realm = try! Realm()
     private var items: Results<RealmModel>!
-    private let cellId = "CellId"
     private var searchText = ""
     
     //MARK: Life cycle
@@ -57,14 +56,16 @@ final class SearchImageViewController: UIViewController {
     
     private func setupView() {
         view.backgroundColor = .blue
-        resultTableView.register(ResultCell.self, forCellReuseIdentifier: cellId)
+        resultTableView.register(ResultCell.self, forCellReuseIdentifier: ResultCell.identifier)
         items = realm.objects(RealmModel.self)
     }
     
     private func addViews() {
+        //searchBar
         view.addSubview(searchBar)
         navigationItem.titleView = searchBar
         
+        //resultTableView
         view.addSubview(resultTableView)
         _ = resultTableView.anchor(view.safeAreaLayoutGuide.topAnchor, left: view.leftAnchor, bottom: view.bottomAnchor, right: view.rightAnchor)
     }
@@ -125,7 +126,7 @@ extension SearchImageViewController: UITableViewDelegate, UITableViewDataSource 
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = resultTableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! ResultCell
+        let cell = resultTableView.dequeueReusableCell(withIdentifier: ResultCell.identifier, for: indexPath) as! ResultCell
         let item = items.reversed()[indexPath.row]
         cell.setText = item.searchText
         cell.setImage = item.imageString

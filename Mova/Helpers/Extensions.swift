@@ -8,6 +8,12 @@
 
 import UIKit
 
+extension NSObject {
+    class var identifier: String {
+        return String(describing: self)
+    }
+}
+
 extension UIColor {
     
     class func hexStr (_ hexStr : String, alpha : CGFloat) -> UIColor {
